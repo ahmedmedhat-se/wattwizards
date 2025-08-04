@@ -3,7 +3,7 @@ import Features from "../services/Features.jsx";
 import Programs from "../services/Programs.jsx";
 import SparkTalk from "./SparkTalk.jsx";
 import "../styles/hompage.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/alt-logo.png";
 
 function Homepage() {
     return (

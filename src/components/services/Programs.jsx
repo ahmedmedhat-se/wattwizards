@@ -1,19 +1,20 @@
 // Programs Pages
-import CircuitBreaker from "../projects/calcs/CircuitBreaker";
-import DataSetProgram from '../projects/calcs/DataSetProgram';
-import PowerFactorCorrection from "../projects/calcs/PowerFactorCorrection";
-import ElectricalConsumption from "../projects/calcs/ElectricalConsumption";
-import HorsePower2Ampere from "../projects/calcs/HorsePowerToAmpere";
-import VoltAmpere2Watt from "../projects/calcs/VoltAmpere2Watt";
-import Watt2Ampere from "../projects/calcs/Watt2Ampere";
-import Ampere2Watt from "../projects/calcs/Ampere2Watt";
-import HP2KWConverter from '../projects/calcs/HP2kW';
-import Coulomb from "../projects/calcs/CoulombLaw";
-import Ohm from "../projects/calcs/OhmLaw";
-import Kirchhoff from "../projects/calcs/KirchhoffLaw";
-import Volta from "../projects/calcs/VoltaLaw";
-import Ampere from "../projects/calcs/AmpereLaw";
-import TonToHpConverter from '../projects/calcs/Ton2Hp';
+import CircuitBreaker from "../projects/calcs/CircuitBreaker.jsx";
+import CableCrossSection from "../projects/calcs/CableCrossSection.jsx";
+import DataSetProgram from '../projects/calcs/DataSetProgram.jsx';
+import PowerFactorCorrection from "../projects/calcs/PowerFactorCorrection.jsx";
+import ElectricalConsumption from "../projects/calcs/ElectricalConsumption.jsx";
+import HorsePower2Ampere from "../projects/calcs/HorsePowerToAmpere.jsx";
+import VoltAmpere2Watt from "../projects/calcs/VoltAmpere2Watt.jsx";
+import Watt2Ampere from "../projects/calcs/Watt2Ampere.jsx";
+import Ampere2Watt from "../projects/calcs/Ampere2Watt.jsx";
+import HP2KWConverter from '../projects/calcs/HP2kW.jsx';
+import Coulomb from "../projects/calcs/CoulombLaw.jsx";
+import Ohm from "../projects/calcs/OhmLaw.jsx";
+import Kirchhoff from "../projects/calcs/KirchhoffLaw.jsx";
+import Volta from "../projects/calcs/VoltaLaw.jsx";
+import Ampere from "../projects/calcs/AmpereLaw.jsx";
+import TonToHpConverter from '../projects/calcs/Ton2Hp.jsx';
 
 import { useRef, useState } from "react";
 import "../styles/programs.css";
@@ -21,6 +22,7 @@ import "../styles/programs.css";
 function Programs() {
     const programsList = [
         <CircuitBreaker />,
+        <CableCrossSection />,
         <DataSetProgram />,
         <PowerFactorCorrection />,
         <ElectricalConsumption />,
