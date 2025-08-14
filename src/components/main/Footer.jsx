@@ -64,10 +64,11 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr className="footer-divider my-4" />
-                <p className="text-center mb-0">
-                    © {new Date().getFullYear()} {data.company.name}. All rights reserved.
-                </p>
+                <hr className="footer-divider"/>
+                <div className="mb-0 d-flex justify-content-between p-4">
+                    <p className='me-2'>© {new Date().getFullYear()} All rights reserved {data.company.name}.</p>
+                    <Link className='text-secondary text-decoration-none' to={"/wattwizards/privacy-policy"}>Privacy Policy</Link>
+                </div>
             </div>
         </footer>
     );

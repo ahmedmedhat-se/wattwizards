@@ -14,6 +14,7 @@ import EditProject from "./components/dev/EditProject.jsx";
 // Importing Other Components
 import Homepage from "./components/main/Homepage.jsx";
 import Achievments from "./components/services/Achievments.jsx";
+import PrivacyPolicy from "./components/services/PrivacyPolicy.jsx";
 
 // Importing Auth Components
 import AuthForm from "./components/auth/AuthForm.jsx";
@@ -41,6 +42,7 @@ const router = createBrowserRouter([
       { path: "homepage", element: <Homepage /> },
       { path: "programs", element: <Programs /> },
       { path: "achievments", element: <Achievments /> },
+      { path: "privacy-policy", element: <PrivacyPolicy /> },
       {
         path: "workspace",
         children: [

@@ -167,7 +167,7 @@ function Header() {
                         <i className="fas fa-store"></i> Store
                     </Link>
                     <Link to="/wattwizards/products/cart" className="nav-link">
-                        <i class="fas fa-cart-plus"></i> Cart
+                        <i className="fas fa-cart-plus"></i> Cart
                     </Link>
                 </div>
             </aside>

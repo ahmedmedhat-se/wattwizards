@@ -117,9 +117,25 @@ section.cards-lg-containers {
   justify-content: space-between;
 }
 
-.pagination .pagination-btn {
-  background: black;
-  color: #fff;
+.pagination-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 0 15px;
+  min-width: min-content;
+}
+
+@media (max-width: 400px) {
+  .pagination-buttons {
+    justify-content: flex-start;
+  }
 }
 
 /* Media Queries Starts */

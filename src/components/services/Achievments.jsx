@@ -5,7 +5,7 @@ const awards = [
   {
     id: "BASEF",
     title: "BASEF 2024 & 2025",
-    modalTitle: "BASEF 2024",
+    modalTitle: "Biblotheca Alexandria - Science and Engineering Fair",
     image: "https://img.peapix.com/2622272799050844425_UHD.jpg?attachment&modal",
     description: `BASEF 2024 - Bronze Medal Winners / BASEF 2025 Finalists at the republican science and engineering fair - Software systems branch.`,
     link: "https://drive.google.com/drive/folders/1mp6H1NPinYgFm1RCAa1NNhMQuP8g7LUR",
@@ -23,7 +23,7 @@ const awards = [
   {
     id: "NCCSI",
     title: "NCCSI",
-    modalTitle: "NCCSI 2024",
+    modalTitle: "ITC - NCCSI 2024",
     image: "https://media.licdn.com/dms/image/D4D22AQGYf8O7059Jiw/feedshare-shrink_800/0/1717161113360?e=2147483647&v=beta&t=hH-NNzss8KJjowZys8ylGlT3L3Q0_B_MPyHLgZQrYYE",
     description: `We are among the projects nominated to participate in the National Competition for Creative Sustainable Ideas (NCCSI) during the 2024 ITC Egypt Conference.`,
     link: "https://drive.google.com/drive/folders/1mp6H1NPinYgFm1RCAa1NNhMQuP8g7LUR",
@@ -46,20 +46,29 @@ const awards = [
     description: `Mini Shark Tank Egypt - Top 7 Finalists (SUTech-Sponsored).`,
     link: "https://www.facebook.com/sutegypt/posts/attention-all-aspiring-innovators-the-techtank-competition-is-officially-launchi/592226037200390/",
     linkText: "Invitations!"
-  }
+  },
+  {
+    id: "iSchool",
+    title: "Startup Teens",
+    modalTitle: "iSchool - Startup Teens",
+    image: "https://cdn.prod.website-files.com/67c36b9f72a814fbe2297bf8/67c9b3bf15864e1fb49e010f_OG%20Image.png",
+    description: `Participated in iSchool's Competetion - Startup Teens `,
+    link: "https://startupteen.ischooltech.com/",
+    linkText: "Check it out!"
+  },
 ];
 
 function Achievments() {
   return (
-    <section className="py-5 bg-light" id="achievements">
+    <section className="p-5 bg-light" id="achievements">
       <div className="container">
-        <header className="text-center mb-5">
+        <header className="text-center mb-3">
           <h1 className="mb-3 fw-bold text-dark">🏆 Our Achievements</h1>
           <p className="fw-medium fs-5 text-muted">
             A collection of national & international awards and recognitions.
           </p>
           <a
-            className="btn btn-primary shadow-sm mt-3"
+            className="btn btn-primary shadow-sm"
             href="https://drive.google.com/drive/folders/1kRrhAZokFGh8P3DNR8rIo-a6WUwVcd17"
             target="_blank"
             rel="noopener noreferrer"
@@ -111,7 +120,7 @@ function Achievments() {
                           href={link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn btn-outline-primary"
+                          className="btn btn-primary"
                         >
                           {linkText} <FontAwesomeIcon icon={faLink} className="ms-2" />
                         </a>

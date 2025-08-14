@@ -154,7 +154,7 @@ function Profile() {
 
     return (
         <div className="user-profile container-fluid p-3">
-            <div className="card">
+            <div className="card p-3">
                 <div className="card-body">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 text-center mb-4 profile-info">
@@ -177,7 +177,7 @@ function Profile() {
                                     profile.name
                                 )}
                             </h5>
-                            <p className="text-muted">
+                            <p>
                                 {editing ? (
                                     <input
                                         type="email"
@@ -302,10 +302,10 @@ function Profile() {
                                 </>
                             ) : (
                                 <div className="text-center py-3">
-                                    <p className="text-muted">Your cart is empty</p>
+                                    <p className="">Your cart is empty</p>
                                     <button
                                         onClick={() => navigate('/wattwizards/products')}
-                                        className="btn btn-outline-primary"
+                                        className="btn btn-primary"
                                     >
                                         Browse Products
                                     </button>
